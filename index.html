@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #photo {
+            display: none;
+            width: 100%;
+            max-width: 600px;
+        }
+    </style>
+    <script>
+        function showPhoto() {
+            var photo = document.getElementById('photo');
+            if (photo.style.display === 'none') {
+                photo.style.display = 'block';
+            } else {
+                photo.style.display = 'none';
+            }
+        }
+       
+    </script>
+</head>
+<body>
+    <H2 onclick="showPhoto()" style="cursor: pointer; color: blue; text-decoration: underline;">
+      This is 4 u !
+    </H2>
+   <img id="photo" src="C:\Users\noha5\OneDrive\Desktop\7102e1771b31ce3665a3f15522a603b6.gif" alt="Example Photo">
+</body>
+</html>
+
+
+
+
